@@ -28,6 +28,15 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 ![Example Output 1](results/Experiment_1/Experiment_1_2025_10_27_16_31_Step11.png)
 
 
+<p align="center">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step3.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step7.png" width="150">
+</p>
+
 
 
 
