@@ -126,3 +126,5 @@ You can choose between:
 * This flexibility allows for both fine-grained and global analysis of visual attention.
 * Multiple Prompts possible
 * Multiple Images possible
+
+![Example Output 1](assets/LLaVa image.png)
