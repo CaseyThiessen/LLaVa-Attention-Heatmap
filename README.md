@@ -17,12 +17,17 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 ## 🖼️ Example: Attention Visualization Output
 
 ### Input Image
-**Prompt:** *Is there food in the image?*  
-**Answer:** *Yes, there is a plate of food in the image.*
-
-<p align="center">
-  <img src="dataset/image_1.jpg" width="300">
-</p>
+<table>
+<tr>
+<td>
+<strong>Prompt:</strong> <em>Is there food in the image?</em><br>
+<strong>Answer:</strong> <em>Yes, there is a plate of food in the image.</em>
+</td>
+<td>
+<img src="dataset/image_1.jpg" width="300">
+</td>
+</tr>
+</table>
 
 
 
