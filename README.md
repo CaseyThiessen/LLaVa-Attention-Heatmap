@@ -128,4 +128,17 @@ You can choose between:
   <img src="assets/LLaVa_image.png" alt="Project Banner" width="80%">
 </p>
 
+<p align="center">
+  <img src="assets/LLaVa_image.png" alt="Thank you for reading!" style="width:100%; border-radius:12px;">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/LLaVa_image.png" alt="Project Banner" width="70%">
+</p>
+
+<p align="center">
+  <i>Thanks for visiting — contributions and stars are always welcome ⭐</i>
+</p>
 
