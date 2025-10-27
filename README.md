@@ -17,17 +17,18 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 ## 🖼️ Example: Attention Visualization Output
 
 ### Input Image
-<table border="0" cellpadding="0" cellspacing="0">
+<table style="border: none; border-collapse: collapse;">
 <tr>
-<td>
+<td style="border: none; padding: 5px;">
 <strong>Prompt:</strong> <em>Is there food in the image?</em><br>
 <strong>Answer:</strong> <em>Yes, there is a plate of food in the image.</em>
 </td>
-<td>
+<td style="border: none; padding: 5px;">
 <img src="dataset/image_1.jpg" width="300">
 </td>
 </tr>
 </table>
+
 
 
 
