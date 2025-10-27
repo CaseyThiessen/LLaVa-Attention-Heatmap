@@ -32,7 +32,9 @@ pip install -r requirements.txt
 
 ### 2. Model Download
 Download the llava-1.5-7b-hf model by executing:
+```bash
 python download_model.py
+```
 This script will automatically retrieve the model weights and store them in the appropriate directory for later use.
 
 
@@ -53,7 +55,9 @@ Based on prior research (see References section), this configuration provided th
 
 ### 4. Running the Attention Extraction
 Execute the main attention extraction script:
+```bash
 python attention.py
+```
 
 Depending on your configuration, the pipeline will:
 * Extract and optionally aggregate attention heatmaps across specified layers and heads
