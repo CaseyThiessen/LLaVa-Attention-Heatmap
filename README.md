@@ -36,8 +36,7 @@ This script will automatically retrieve the model weights and store them in the 
 
 
 ### 3. Configuration
-Open the attention.py file and navigate to the configuration section at the top of the script.
-Here, you can modify:
+Open the attention.py file and navigate to the configuration section at the top of the script. Here, you can modify:
 * File paths and filenames
 * Experiment parameters (e.g., layers, heads, aggregation options)
 * Output directories
@@ -53,15 +52,13 @@ Based on prior research (see References section), this configuration provided th
 
 ### 4. Running the Attention Extraction
 Execute the main attention extraction script:
-
 python attention.py
 
 Depending on your configuration, the pipeline will:
 * Extract and optionally aggregate attention heatmaps across specified layers and heads
 * Save resulting visualizations as overlayed heatmaps in the output directory
 
-If inspect == True:
-The model’s inputs and outputs will be printed to the console and a text log file will be created, documenting:
+If inspect == True the model’s inputs and outputs will be printed to the console and a text log file will be created, documenting:
 * Timestamp
 * Experiment parameters
 * Input and output text
@@ -69,13 +66,11 @@ The model’s inputs and outputs will be printed to the console and a text log f
 
 ### 5. Reading the Output
 Output filenames follow the convention:
+* S = Step
+* L = Layer
+* H = Head
 
-S = Step
-L = Layer
-H = Head
-
-For example, S1_L14_H24.png corresponds to step 1, layer 14, head 24.
-If multiple steps are analyzed, token labels will be printed beneath each output image.
+For example, S1_L14_H24.png corresponds to step 1, layer 14, head 24. If multiple steps are analyzed, token labels will be printed beneath each output image.
 
 
 ### 6. Options
