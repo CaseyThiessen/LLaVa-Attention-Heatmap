@@ -15,7 +15,10 @@ Our pipeline supports:
 This toolkit contributes to enhancing transparency and interpretability in multimodal generative models, allowing researchers to analyze how multimodal language models integrate visual and textual information during generation.
 
 ## 🖼️ Example: Attention Visualization Output
-
+### Input Image
+<p align="center">
+  <img src="dataset/image_1.jpg" width="300">
+</p>
 
 <p align="center">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="150">
