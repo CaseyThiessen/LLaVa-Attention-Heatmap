@@ -1,4 +1,4 @@
-# 🧠 Explainable AI Toolkit for Multimodal Models
+# Explainable AI Toolkit for LLaVa
 
 ## Overview
 This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
@@ -14,13 +14,54 @@ Our pipeline supports:
 
 This toolkit contributes to enhancing transparency and interpretability in multimodal generative models, allowing researchers to analyze how multimodal language models integrate visual and textual information during generation.
 
-## 🖼️ Example: Attention Visualization Output
+## Example: Attention Visualization Output
 
-**Prompt:** *Is there food in the image?*  
-**Answer:** *Yes, there is a plate of food in the image.*
+### Input Image
+<table style="border: none; border-collapse: collapse;">
+<tr>
+<td style="border: none; padding: 5px;">
+<strong>Prompt:</strong> <em>Is there food in the image?</em><br>
+<strong>Answer:</strong> <em>Yes, there is a plate of food in the image.</em>
+</td>
+<td style="border: none; padding: 5px;">
+<img src="dataset/image_1.jpg" width="300">
+</td>
+</tr>
+</table>
 
 
-## ⚙️ Quickstart & Usage
+
+
+
+<p align="center">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step2.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step3.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="150">
+
+</p>
+
+
+### Attention Visualization
+The attention heatmaps illustrate how the model focuses on specific regions of the input image during token generation.
+
+<p align="center">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step7.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step8.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step9.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step10.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step11.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step12.png" width="150">
+</p>
+
+
+
+
+
+
+## Quickstart & Usage
 
 ### 1. Environment Setup
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
