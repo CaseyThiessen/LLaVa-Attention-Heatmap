@@ -34,12 +34,12 @@ Our pipeline supports:
 The attention heatmaps illustrate how the model focuses on specific regions of the input image during token generation.
 
 <p align="center">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="170">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step2.png" width="170">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step3.png" width="170">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="170">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="170">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="170">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step2.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step3.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="200">
 </p>
 
 
