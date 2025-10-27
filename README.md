@@ -1,44 +1,15 @@
-What is this? Overview
+# 🧠 Explainable AI Toolkit for Multimodal Models
 
+## Overview
+This project presents an **Explainable AI (XAI) toolkit** designed to address the *black-box problem* in multimodal language models.  
+It enables users to **extract, aggregate, and visualize attention mechanisms** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
 
-Explainable AI Tool/ Toolkit to extract the attention of the llava-1.5-7b-hf model
+The toolkit provides an interpretable view of the model’s internal reasoning by generating **attention heatmaps** that illustrate the relationship between generated text tokens and visual input regions — effectively answering the question:  
+> *Where did the model look when generating this token?*
 
-https://huggingface.co/llava-hf/llava-1.5-7b-hf
+Our pipeline supports:
+- Extraction of attention weights across **specific steps, layers and heads**
+- **Aggregation** of multi-head attention patterns for clearer interpretation
+- **Visualization** of attention as overlayed heatmaps on input images
 
-Address this black box problem
-
-Our Pipeline
-Supports extraction, aggregation and visualization of the attention for specific generation steps, layers and attention heads 
-
-
-
-Example with labeled output images
-
-
-
-Settings
-
-Currently reduction method for the first step / only   mean over layers and heads is supported
-Extract attention values for which step(s), layer(s), attention head(s)
-Extract multiple heatmaps for specificed parameters or aggregate with mean into one single heatmap
-
-Either chose to investigate step == 0 
-Or any other range from 1 to max steps
-Step == 0 is a different processing mode of the model then all the susequent steps 
-    
-
-Choose whether to inspect the model's input and output.
-If inspect == True:
-- The inputs and outputs of the model will be printed.
-- Additionally, a text file will be created to document the experiment,
-including details such as the experiment timestamp, inputs, outputs,
-and generated text.
-
-
-
-Quick Start Hugging Face/ LLava Analysis / Usage Example
-
-Reference git to setup the bw cluster
-
-
-
+This toolkit contributes to enhancing transparency and interpretability in multimodal generative models, allowing researchers to analyze how multimodal language models integrate visual and textual information during generation.
