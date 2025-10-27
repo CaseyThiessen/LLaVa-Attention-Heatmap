@@ -31,7 +31,8 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 
 
 
-
+### Attention Visualization
+The attention heatmaps illustrate how the model focuses on specific regions of the input image during token generation.
 
 <p align="center">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step1.png" width="150">
@@ -40,12 +41,8 @@ This toolkit contributes to enhancing transparency and interpretability in multi
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="150">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="150">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="150">
-
 </p>
 
-
-### Attention Visualization
-The attention heatmaps illustrate how the model focuses on specific regions of the input image during token generation.
 
 <p align="center">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step7.png" width="150">
@@ -127,5 +124,8 @@ You can choose between:
 * Multiple Prompts possible
 * Multiple Images possible
 
-<img src="assets/LLaVa_image.png" width="300">
+<p align="center">
+  <img src="assets/LLaVa_image.png" alt="Project Banner" width="80%">
+</p>
+
 
