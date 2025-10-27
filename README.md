@@ -1,4 +1,4 @@
-# 🧠 Explainable AI Toolkit for Multimodal Models
+# Explainable AI Toolkit for LLaVa
 
 ## Overview
 This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
@@ -14,7 +14,7 @@ Our pipeline supports:
 
 This toolkit contributes to enhancing transparency and interpretability in multimodal generative models, allowing researchers to analyze how multimodal language models integrate visual and textual information during generation.
 
-## 🖼️ Example: Attention Visualization Output
+## Example: Attention Visualization Output
 
 ### Input Image
 <table style="border: none; border-collapse: collapse;">
@@ -61,7 +61,7 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 
 
 
-## ⚙️ Quickstart & Usage
+## Quickstart & Usage
 
 ### 1. Environment Setup
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
