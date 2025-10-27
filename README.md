@@ -127,4 +127,4 @@ You can choose between:
 * Multiple Prompts possible
 * Multiple Images possible
 
-![Example Output 1](assets/LLaVa image.png)
+![Example Output 1](assets/LLaVa_image.png)
