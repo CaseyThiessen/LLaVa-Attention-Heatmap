@@ -127,4 +127,5 @@ You can choose between:
 * Multiple Prompts possible
 * Multiple Images possible
 
-![Example Output 1](assets/LLaVa_image.png)
+<img src="assets/LLaVa_image.png" width="300">
+
