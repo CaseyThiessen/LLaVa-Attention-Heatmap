@@ -2,13 +2,13 @@
 
 ## Overview
 This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
-It enables users to **extract, aggregate, and visualize attention mechanisms** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
+It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
 
-The toolkit provides an interpretable view of the model’s internal reasoning by generating **attention heatmaps** that illustrate the relationship between generated text tokens and visual input regions — effectively answering the question:  
+The toolkit provides an interpretable view of the model’s internal reasoning by generating **attention heatmaps** that illustrate the relationship between generated text tokens and visual input regions effectively answering the question:  
 > *Where did the model look when generating this token?*
 
 Our pipeline supports:
-- Extraction of attention weights across **specific steps, layers and heads**
+- Extraction of attention weights across **specific steps, layers and attention heads**
 - **Aggregation** of multi-head attention patterns for clearer interpretation
 - **Visualization** of attention as overlayed heatmaps on input images
 
@@ -24,10 +24,11 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 
 ### 1. Environment Setup
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
-That repository outlines the correct environment configuration and file structure for running large models on the bwCluster system.
+That repository outlines the correct environment configuration for working on the bwHPC system.
 Before starting, ensure that all dependencies are installed and compatible by running:
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 2. Model Download
 Download the llava-1.5-7b-hf model by executing:
@@ -78,3 +79,5 @@ You can choose between:
 * Generating multiple heatmaps for specified parameters
 * Aggregating results via the mean into a single composite heatmap
 * This flexibility allows for both fine-grained and global analysis of visual attention.
+* Multiple Prompts possible
+* Multiple Images possible
