@@ -17,7 +17,7 @@ This toolkit contributes to enhancing transparency and interpretability in multi
 ## 🖼️ Example: Attention Visualization Output
 
 ### Input Image
-<table border="0" cellpadding="5" cellspacing="0">
+<table border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td>
 <strong>Prompt:</strong> <em>Is there food in the image?</em><br>
