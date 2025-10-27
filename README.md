@@ -113,9 +113,11 @@ You can choose between:
 ## References 
 Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025a, March 8). Your large vision-language model only needs a few attention heads for visual grounding. arXiv.org. https://arxiv.org/abs/2503.06287
 
+<!-- 
 <p align="center">
   <img src="assets/LLaVa_image.png" alt="Project Banner" width="70%">
 </p>
+--->
 
 <p align="center">
   <i>Thanks for visiting — contributions and stars are always welcome ⭐</i>
