@@ -1,7 +1,7 @@
 # 🧠 Explainable AI Toolkit for Multimodal Models
 
 ## Overview
-This project presents an **Explainable AI (XAI) toolkit** designed to address the *black-box problem* in multimodal language models.  
+This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
 It enables users to **extract, aggregate, and visualize attention mechanisms** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
 
 The toolkit provides an interpretable view of the model’s internal reasoning by generating **attention heatmaps** that illustrate the relationship between generated text tokens and visual input regions — effectively answering the question:  
@@ -43,11 +43,11 @@ Here, you can modify:
 * Output directories
 * Attention Parameters
 * reduction_config: Controls the dimensionality reduction used during attention aggregation.
-*  Recommended value: 2
+  *  Recommended value: 2
 * layers_config: Determines which layer(s) to extract attention from.
-*  Recommended value: 14
+  *  Recommended value: 14
 * heads_config: Specifies the attention heads to visualize.
-*  Recommended values: [13, 24]
+  *  Recommended values: [13, 24]
 Based on prior research (see References section), this configuration provided the most interpretable attention visualizations.
 
 
