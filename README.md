@@ -40,16 +40,12 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step4.png" width="200">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step5.png" width="200">
  <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step6.png" width="200">
-</p>
-
-
-<p align="center">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step7.png" width="150">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step8.png" width="150">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step9.png" width="150">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step10.png" width="150">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step11.png" width="150">
- <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step12.png" width="150">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step7.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step8.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step9.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step10.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step11.png" width="200">
+ <img src="results/Experiment_1/Experiment_1_2025_10_27_16_31_Step12.png" width="200">
 </p>
 
 
