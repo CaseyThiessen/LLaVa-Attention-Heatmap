@@ -1,13 +1,11 @@
 # 🌋 Explainable AI Toolkit for LLaVa
 
 ## Overview
-This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
-It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
+This project presents an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models.  
+It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model. By visualizing the model’s reasoning through attention heatmaps insight can be gained on how visual regions influence generated text. 
 
-The toolkit provides an interpretable view of the model’s internal reasoning by generating **attention heatmaps** that illustrate the relationship between generated text tokens and visual input regions.
-This toolkit contributes to enhancing transparency and interpretability in multimodal generative models, allowing researchers to analyze how multimodal language models integrate visual and textual information during generation.
 
-Our pipeline supports:
+The pipeline supports:
 - Extraction of attention weights across **specific steps, layers and attention heads**
 - **Aggregation** of the attention output for clearer interpretation
 - **Visualization** of attention as overlayed heatmaps on input images
