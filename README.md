@@ -1,4 +1,4 @@
-# Explainable AI Toolkit for LLaVa
+# 🌋 Explainable AI Toolkit for LLaVa
 
 ## Overview
 This project presents an **Explainable AI (XAI) toolkit** designed to address the **black-box problem** in multimodal language models.  
