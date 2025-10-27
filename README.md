@@ -15,7 +15,7 @@ Our pipeline supports:
 
 ## Example: Attention Visualization Output
 
-### Input Image
+### Input Image & Prompt
 <table style="border: none; border-collapse: collapse;">
 <tr>
 <td style="border: none; padding: 5px;">
