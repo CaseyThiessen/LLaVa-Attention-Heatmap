@@ -116,6 +116,6 @@ Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-lan
 --->
 
 <p align="center">
-  <i>Thanks for visiting — contributions and stars are always welcome ⭐</i>
+  <i>Thanks for visiting! Contributions and stars are always welcome ⭐</i>
 </p>
 
