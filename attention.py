@@ -43,11 +43,11 @@ inspect = True
 
 prompts = ["<image>\nIs there food in the image?"]
 
-image_paths = ["/pfs/work9/workspace/scratch/ul_suh74-Pixtral/Attention_Pipeline/FINAL_REPO/dataset/image_1.jpg"]
+image_paths = ["/your/path/goes/here/dataset/image_1.jpg"]
 
-model_path = "/pfs/work9/workspace/scratch/ul_suh74-Pixtral/llava-1.5-7b-hf/llava-1.5-7b-hf/"
+model_path = "/your/path/goes/here/llava-1.5-7b-hf/llava-1.5-7b-hf/"
 
-base_out_dir = Path(f"/pfs/work9/workspace/scratch/ul_suh74-Pixtral/Attention_Pipeline/FINAL_REPO/results/")
+base_out_dir = Path(f"/your/path/goes/here/results/")
 
 base_out_dir.mkdir(parents=True, exist_ok=True) 
 
@@ -145,6 +145,7 @@ for idx, (img_path, prompt) in enumerate(zip(image_paths, prompts), start=1):
     elif len(heads_config) > 31:
         raise ValueError("Scope of heads is out of bounds. Please reduce the heads to be analyzed.")
 
+  
 
 # === Get the attention ===
 
