@@ -1,6 +1,18 @@
 # 🌋 Explainable AI Toolkit for LLaVa
 
-## Overview
+## Table of Contents
+1. Overview
+2. Example: Attention Visualization Output
+3. Quickstart & Usage
+     1. Environment Setup
+     2. Model Download
+     3. Configuration
+     4. Running the Attention Extraction
+     5. Options
+4. Performance / Limitations
+5. References
+
+## 1. Overview
 This project presents an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models.  
 It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model. By visualizing the model’s reasoning through attention heatmaps insight can be gained on how visual regions influence generated text. 
 
@@ -11,7 +23,7 @@ The pipeline supports:
 - **Visualization** of attention as overlayed heatmaps on input images
 
 
-## Example: Attention Visualization Output
+## 2. Example: Attention Visualization Output
 
 ### Input Image & Prompt
 <table style="border: none; border-collapse: collapse;">
@@ -25,7 +37,6 @@ The pipeline supports:
 </td>
 </tr>
 </table>
-
 
 
 ### Attention Visualization
@@ -47,7 +58,7 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 </p>
 
 
-## Quickstart & Usage
+## 3. Quickstart & Usage
 
 ### 1. Environment Setup
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
@@ -69,15 +80,18 @@ Open the attention.py file and navigate to the configuration section at the top 
 * File paths (also to the input images)
 * Output directories
 * Prompts
-* Experiment parameters (Recommendations are based on research done by Kang et al. 2025):
-  * reduction_config: Controls the dimensionality reduction used during attention aggregation by taking the mean.
-    *  Recommended setting: 2
-  * steps_config: Determines which step(s) to extract attention from.
-    *  Recommended setting: 'all'
-  * layers_config: Determines which layer(s) to extract attention from.
-    *  Recommended setting: 14
-  * heads_config: Determines which attention heads to extract attention from.
-    *  Recommended setting: [13, 24] 
+* Output directories
+* Prompts
+* Experiment parameters 
+(Recommendations are based on research done by Kang et al. 2025):
+
+| Parameter | Description | Recommended setting |
+| --- | --- | --- |
+| `reduction_config` | Controls the dimensionality reduction used during attention aggregation by taking the mean. | `2` |
+| `steps_config` | Determines which step(s) to extract attention from. | `'all'` |
+| `layers_config` | Determines which layer(s) to extract attention from. | `14` |
+| `heads_config` | Determines which attention heads to extract attention from. | `[13, 24]` |
+
 For more information see the documentation in the attention.py file.
 
 ### 4. Running the Attention Extraction
@@ -103,8 +117,11 @@ You can choose between:
 * Aggregating results via mean aggregation into a single composite heatmap
 * This flexibility allows for both fine-grained and global analysis of visual attention.
 
+## 4. Performance / Limitations 
+  * Occasionally misinterprets results 
+  * Demanding for resources and memory space - requires GPU 
 
-## References 
+## 5. References 
 Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-language model only needs a few attention heads for visual grounding. arXiv.org. https://arxiv.org/abs/2503.06287
 
 <!-- 
