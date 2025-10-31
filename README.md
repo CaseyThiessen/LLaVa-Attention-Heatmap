@@ -1,6 +1,6 @@
 # 🌋 Explainable AI Toolkit for LLaVa
 
-![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![LLaVa](https://img.shields.io/badge/Model-llava--1.5--7b--hf-green)
 ![GPU Required](https://img.shields.io/badge/GPU-Required-red)
 
@@ -74,7 +74,13 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 ## 4. Quickstart & Usage
 
 ### 1. Environment Setup
+
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
+The repository contains a detailed guide for configuring your environment and dependencies on bwHPC.
+
+For a step-by-step walkthrough on creating and configuring your bwHPC account, you can also refer to this Notion guide:  
+[BW Cluster Public — Setup Guide](https://whip-seat-6cf.notion.site/BW-Cluster-Public-27819702d1364bc08b5c888217ff676b)
+
 That repository outlines the correct environment setup for working on the bwHPC system. Afterwards ensure that all dependencies are installed and compatible by running:
 ```bash
 pip install -r requirements.txt
