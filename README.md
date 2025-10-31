@@ -1,6 +1,6 @@
 # 🌋 Explainable AI Toolkit for LLaVa
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Python](https://img.shields.io/badge/Python-3.10.17-blue)
 ![LLaVa](https://img.shields.io/badge/Model-llava--1.5--7b--hf-green)
 ![GPU Required](https://img.shields.io/badge/GPU-Required-red)
 
