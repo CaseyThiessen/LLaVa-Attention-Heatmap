@@ -118,15 +118,15 @@ python attention.py
 ```
 
 Depending on your configuration, the pipeline will:
-* Extract and optionally aggregate attention heatmaps across specified steps, layers and heads
+* Extract and optionally aggregate attention heatmaps across specified steps, layers and attention heads
 * Save resulting visualizations as overlayed heatmaps in the output directory
 
 If inspect == True a text log file will be created, documenting:
+* Generated output text
 * Experiment runtime 
 * Experiment parameters
 * Input and output mappings
-* Heatmaps? or is that what the thing above says?
-* Generated output text
+
 
 
 ### 5. Options
