@@ -32,7 +32,7 @@ The pipeline supports:
 - **Visualization** of attention as overlayed heatmaps on input images
 
 ## 2 Motivation 
-Multimodal large language models (MLLMs) like LLaVa have demonstrated remarkable performance, but the inner workings remain largely unknown. Understanding **how** these models ground visual information is critical for future research.
+Multimodal large language models, like LLaVa have demonstrated remarkable performance, but the inner workings remain largely unknown. Understanding **how** these models ground visual information is critical for future research.
 
 This toolkit provides a window into the reasoning process of LLaVa by enabling the extraction, aggregation, and visualization of attention patterns, helping researchers and developers understand which image regions influence textual outputs and why.
 
@@ -119,6 +119,7 @@ If inspect == True a text log file will be created, documenting:
 * Experiment runtime 
 * Experiment parameters
 * Input and output mappings
+* Heatmaps? or is that what the thing above says?
 * Generated output text
 
 
@@ -132,7 +133,7 @@ You can choose between:
   * Occasionally misinterprets results 
   * Demanding for resources and memory space 
 
-## 6. References 
+## 7. References 
 Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-language model only needs a few attention heads for visual grounding. arXiv.org. https://arxiv.org/abs/2503.06287
 
 <!-- 
