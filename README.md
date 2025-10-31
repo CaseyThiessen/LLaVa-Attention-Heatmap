@@ -78,9 +78,6 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
 The repository contains a detailed guide for configuring your environment and dependencies on bwHPC.
 
-For a step-by-step walkthrough on creating and configuring your bwHPC account, you can also refer to this Notion guide:  
-[BW Cluster Public — Setup Guide](https://whip-seat-6cf.notion.site/BW-Cluster-Public-27819702d1364bc08b5c888217ff676b)
-
 That repository outlines the correct environment setup for working on the bwHPC system. Afterwards ensure that all dependencies are installed and compatible by running:
 ```bash
 pip install -r requirements.txt
