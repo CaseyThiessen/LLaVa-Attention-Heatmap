@@ -1,29 +1,42 @@
 # 🌋 Explainable AI Toolkit for LLaVa
 
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![LLaVa](https://img.shields.io/badge/Model-llava--1.5--7b--hf-green)
+![GPU Required](https://img.shields.io/badge/GPU-Required-red)
+
+
 ## Table of Contents
 1. Overview
-2. Example: Attention Visualization Output
-3. Quickstart & Usage
+2. Motivation 
+3. Example: Attention Visualization Output
+4. Quickstart & Usage
      1. Environment Setup
      2. Model Download
      3. Configuration
      4. Running the Attention Extraction
      5. Options
-4. Performance / Limitations
-5. References
+5. Performance / Limitations
+6. References
 
 ## 1. Overview
 This project presents an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models.  
 It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model. By visualizing the model’s reasoning through attention heatmaps insight can be gained on how visual regions influence generated text. 
 
+The toolkit leverages the attention maps within LLaVa’s multimodal transformer layers. These maps represent how strongly each image patch contributes to the model’s token predictions.
+
+Attention matrices can be extracted at **specific layers, heads, or generation steps,** and optionally aggregated across dimensions (e.g., mean over heads) to improve interpretability.
 
 The pipeline supports:
 - Extraction of attention weights across **specific steps, layers and attention heads**
 - **Aggregation** of the attention output for clearer interpretation
 - **Visualization** of attention as overlayed heatmaps on input images
 
+## 2 Motivation 
+Multimodal large language models (MLLMs) like LLaVa have demonstrated remarkable performance, but the inner workings remain largely unknown. Understanding **how** these models ground visual information is critical for future research.
 
-## 2. Example: Attention Visualization Output
+This toolkit provides a window into the reasoning process of LLaVa by enabling the extraction, aggregation, and visualization of attention patterns, helping researchers and developers understand which image regions influence textual outputs and why.
+
+## 3. Example: Attention Visualization Output
 
 ### Input Image & Prompt
 <table style="border: none; border-collapse: collapse;">
@@ -58,7 +71,7 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 </p>
 
 
-## 3. Quickstart & Usage
+## 4. Quickstart & Usage
 
 ### 1. Environment Setup
 For usage on the **bwHPC**, we recommend following the setup instructions provided in the [Medical_Imaging repository](https://github.com/DeveloperNomis/Medical_Imaging).  
@@ -80,17 +93,15 @@ Open the attention.py file and navigate to the configuration section at the top 
 * File paths (also to the input images)
 * Output directories
 * Prompts
-* Output directories
-* Prompts
 * Experiment parameters 
 (Recommendations are based on research done by Kang et al. 2025):
 
 | Parameter | Description | Recommended setting |
 | --- | --- | --- |
-| `reduction_config` | Controls the dimensionality reduction used during attention aggregation by taking the mean. | `2` |
-| `steps_config` | Determines which step(s) to extract attention from. | `'all'` |
-| `layers_config` | Determines which layer(s) to extract attention from. | `14` |
-| `heads_config` | Determines which attention heads to extract attention from. | `[13, 24]` |
+|`reduction_config`|Controls the dimensionality reduction used during attention aggregation by taking the mean.|`2`|
+|`steps_config`|Determines which step(s) to extract attention from.|`'all'`|
+|`layers_config`|Determines which layer(s) to extract attention from.|`14`|
+|`heads_config`|Determines which attention heads to extract attention from.| `[13, 24]`|
 
 For more information see the documentation in the attention.py file.
 
@@ -117,11 +128,11 @@ You can choose between:
 * Aggregating results via mean aggregation into a single composite heatmap
 * This flexibility allows for both fine-grained and global analysis of visual attention.
 
-## 4. Performance / Limitations 
+## 6. Performance / Limitations 
   * Occasionally misinterprets results 
-  * Demanding for resources and memory space - requires GPU 
+  * Demanding for resources and memory space 
 
-## 5. References 
+## 6. References 
 Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-language model only needs a few attention heads for visual grounding. arXiv.org. https://arxiv.org/abs/2503.06287
 
 <!-- 
@@ -133,4 +144,5 @@ Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-lan
 <p align="center">
   <i>Thanks for visiting! Contributions and stars are always welcome ⭐</i>
 </p>
+
 
