@@ -132,8 +132,7 @@ You can choose between:
 * Aggregating results via mean aggregation into a single composite heatmap
 * This flexibility allows for both fine-grained and global analysis of visual attention.
 
-## 6. Performance / Limitations 
-  * Occasionally misinterprets results 
+## 6. Performance / Limitations  
   * Demanding for resources and memory space 
 
 ## 7. References 
