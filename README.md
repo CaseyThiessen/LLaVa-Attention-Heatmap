@@ -6,16 +6,16 @@
 
 
 ## Table of Contents
-1. Overview
-2. Motivation 
-3. Example: Attention Visualization Output
-4. Quickstart & Usage
-     1. Environment Setup
-     2. Model Download
-     3. Configuration
-     4. Running the Attention Extraction
-     5. Options
-5. References
+1. [Overview](#1-overview)
+2. [Motivation](#2-motivation)
+3. [Example: Attention Visualization Output](#3-example-attention-visualization-output)
+4. [Quickstart & Usage](#4-quickstart--usage)
+   1. [Environment Setup](#1-environment-setup)
+   2. [Model Download](#2-model-download)
+   3. [Configuration](#3-configuration)
+   4. [Running the Attention Extraction](#4-running-the-attention-extraction)
+   5. [Options](#5-options)
+5. [References](#6-references)
 
 
 ## 1. Overview
