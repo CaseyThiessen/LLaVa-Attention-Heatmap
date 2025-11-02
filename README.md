@@ -15,26 +15,25 @@
      3. Configuration
      4. Running the Attention Extraction
      5. Options
-5. Performance / Limitations
-6. References
+5. References
+
 
 ## 1. Overview
-This project presents an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models.  
-It enables users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model. By visualizing the model’s reasoning through attention heatmaps insight can be gained on how visual regions influence generated text. 
+This project introduces an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models.  
+It allows users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model, revealing how image regions influence text generation through **attention heatmaps**.
 
-The toolkit leverages the attention maps within LLaVa’s multimodal transformer layers. These maps represent how strongly each image patch contributes to the model’s token predictions.
+The toolkit accesses LLaVa’s multimodal transformer attention maps, which show how strongly each image patch contributes to predicted tokens.  
+Users can capture attention at **specific layers, heads, or generation steps**, and optionally **aggregate** it (e.g., mean over heads) to enhance interpretability.
 
-Attention matrices can be extracted at **specific layers, heads, or generation steps,** and optionally aggregated across dimensions (e.g., mean over heads) to improve interpretability.
+**Features:**
+- Extract attention weights by **layer, head, or step**  
+- **Aggregate** attention across dimensions for clearer interpretation 
+- **Visualize** attention as heatmaps overlaid on images  
 
-The pipeline supports:
-- Extraction of attention weights across **specific steps, layers and attention heads**
-- **Aggregation** of the attention output for clearer interpretation
-- **Visualization** of attention as overlayed heatmaps on input images
 
-## 2 Motivation 
-Multimodal large language models, like LLaVa have demonstrated remarkable performance, but the inner workings remain largely unknown. Understanding **how** these models ground visual information is critical for future research.
-
-This toolkit provides a window into the reasoning process of LLaVa by enabling the extraction, aggregation, and visualization of attention patterns, helping researchers and developers understand which image regions influence textual outputs and why.
+## 2. Motivation
+Multimodal models like LLaVa are powerful but opaque.  
+This toolkit helps developers **inspect and interpret** the model’s attention patterns, offering insights into **how visual features shape textual outputs**.
 
 ## 3. Example: Attention Visualization Output
 
@@ -124,18 +123,13 @@ If inspect == True a text log file will be created, documenting:
 * Experiment parameters
 * Input and output mappings
 
-
-
 ### 5. Options
 You can choose between:
 * Generating multiple heatmaps for specified parameters or
 * Aggregating results via mean aggregation into a single composite heatmap
 * This flexibility allows for both fine-grained and global analysis of visual attention.
 
-## 6. Performance / Limitations  
-  * Demanding for resources and memory space 
-
-## 7. References 
+## 6. References 
 Kang, S., Kim, J., Kim, J., & Hwang, S.J. (2025, March 8). Your large vision-language model only needs a few attention heads for visual grounding. arXiv.org. https://arxiv.org/abs/2503.06287
 
 <!-- 
