@@ -18,20 +18,18 @@
 
 
 ## 1. Overview
-This project introduces an **Explainable AI (XAI) toolkit** that addresses the **black-box problem** in multimodal language models. It allows users to **extract, aggregate, and visualize attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model, revealing how image regions influence text generation through **attention heatmaps**.
-
-The toolkit accesses LLaVa’s multimodal transformer attention maps, which show how strongly each image patch contributes to predicted tokens.  
-Users can capture attention at **specific layers, heads, or generation steps**, and optionally **aggregate** it (e.g., mean over heads) to enhance interpretability.
+This project introduces an **Explainable AI (XAI) toolkit** that allows users to **inspect the attention** from the [`llava-1.5-7b-hf`](https://huggingface.co/llava-hf/llava-1.5-7b-hf) model.
 
 **Features:**
-- Extract attention weights by **layer, head, or step**  
+- Extract attention weights by **generation step, layer or attention head**  
 - **Aggregate** attention across dimensions for clearer interpretation 
 - **Visualize** attention as heatmaps overlaid on images  
 
 
 ## 2. Motivation
-Multimodal models like LLaVa are powerful but opaque.  
-This toolkit helps developers **inspect and interpret** the model’s attention patterns, offering insights into **how visual features shape textual outputs**.
+Multimodal models like LLaVa are powerful but opaque.
+We aim to advance understanding and transparency in multimodal models, helping to address their black-box nature.
+With tools for visualizing and analyzing attention, researchers and developers can uncover how image regions shape textual outputs.
 
 ## 3. Example: Attention Visualization Output
 
