@@ -70,8 +70,7 @@ The attention heatmaps illustrate how the model focuses on specific regions of t
 
 ### 1. Environment Setup
 
-For usage on the **bwHPC**, follow the setup guide below. It provides step-by-step instructions for account registration, environment configuration, and running jobs on the cluster:
-[BW Cluster Public](https://whip-seat-6cf.notion.site/BW-Cluster-Public-27819702d1364bc08b5c888217ff676b)  
+For usage on the **bwHPC**, follow this setup guide: [BW Cluster Public](https://whip-seat-6cf.notion.site/BW-Cluster-Public-27819702d1364bc08b5c888217ff676b). It provides step-by-step instructions for account registration, environment configuration, and running jobs on the cluster. 
 
 
 You can also find a helpful configuration example and background information here: 
