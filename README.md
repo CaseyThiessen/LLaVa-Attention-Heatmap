@@ -76,9 +76,9 @@ For usage on the **bwHPC**, follow the setup guide below. It provides step-by-st
 
 You can also find a helpful configuration example and background information here: 
 * [Medical Imaging Repository](https://github.com/DeveloperNomis/Medical_Imaging)
-* * includes an example setup for running the Pixtral-12B model on the bwHPC.
+  * includes an example setup for running the Pixtral-12B model on the bwHPC.
 * [bwHPC Wiki](https://wiki.bwhpc.de/e/Main_Page)
-* * official documentation with detailed system and usage instructions.
+  * official documentation with detailed system and usage instructions.
 
 Afterwards ensure that all dependencies are installed and compatible by running:
 ```bash
